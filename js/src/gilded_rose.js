@@ -14,7 +14,6 @@ function update_quality() {
         }
         return item.quality - 1 * x;
     }
-
     function conjuredAdjustment(item){
         return basicAdjustment(item, 2);
     }
@@ -36,10 +35,6 @@ function update_quality() {
             return item.quality + 2;
         }
         return item.quality + 1;
-        
-    }
-    function sulfurasAdjustment(item){
-        return item.quality;
     }
 
     function determineCategory(item){
